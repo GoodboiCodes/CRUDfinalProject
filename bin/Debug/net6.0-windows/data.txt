@@ -1,1 +1,2 @@
-﻿
+﻿1,Kopiko,Beverage,35,20
+2,Beer,Liquor,100,15

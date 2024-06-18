@@ -34,4 +34,11 @@
         Form1.loadData()
     End Sub
 
+    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+        txtID.Text = ""
+        txtName.Text = ""
+        cmbCategory.Text = ""
+        txtUnitprice.Text = ""
+        txtQuantity.Text = ""
+    End Sub
 End Class

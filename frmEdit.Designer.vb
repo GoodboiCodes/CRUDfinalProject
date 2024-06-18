@@ -34,6 +34,7 @@ Partial Class frmEdit
         txtQuantity = New TextBox()
         Label2 = New Label()
         cmbCategory = New ComboBox()
+        btnClear = New Button()
         SuspendLayout()
         ' 
         ' Label4
@@ -88,7 +89,7 @@ Partial Class frmEdit
         ' 
         ' btnSave
         ' 
-        btnSave.Location = New Point(93, 285)
+        btnSave.Location = New Point(52, 285)
         btnSave.Name = "btnSave"
         btnSave.Size = New Size(75, 23)
         btnSave.TabIndex = 6
@@ -137,11 +138,21 @@ Partial Class frmEdit
         cmbCategory.Size = New Size(239, 23)
         cmbCategory.TabIndex = 3
         ' 
+        ' btnClear
+        ' 
+        btnClear.Location = New Point(133, 285)
+        btnClear.Name = "btnClear"
+        btnClear.Size = New Size(75, 23)
+        btnClear.TabIndex = 10
+        btnClear.Text = "Clear"
+        btnClear.UseVisualStyleBackColor = True
+        ' 
         ' frmEdit
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(263, 320)
+        Controls.Add(btnClear)
         Controls.Add(cmbCategory)
         Controls.Add(txtID)
         Controls.Add(btnSave)
@@ -176,4 +187,5 @@ Partial Class frmEdit
     Friend WithEvents txtQuantity As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents cmbCategory As ComboBox
+    Friend WithEvents btnClear As Button
 End Class

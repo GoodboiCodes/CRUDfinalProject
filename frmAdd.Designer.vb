@@ -34,6 +34,7 @@ Partial Class frmAdd
         txtQuantity = New TextBox()
         txtUnitprice = New TextBox()
         txtName = New TextBox()
+        btnClear = New Button()
         SuspendLayout()
         ' 
         ' cmbCategory
@@ -55,7 +56,7 @@ Partial Class frmAdd
         ' 
         ' btnSave
         ' 
-        btnSave.Location = New Point(85, 271)
+        btnSave.Location = New Point(54, 271)
         btnSave.Name = "btnSave"
         btnSave.Size = New Size(75, 23)
         btnSave.TabIndex = 6
@@ -137,6 +138,15 @@ Partial Class frmAdd
         txtName.Size = New Size(239, 23)
         txtName.TabIndex = 2
         ' 
+        ' btnClear
+        ' 
+        btnClear.Location = New Point(135, 271)
+        btnClear.Name = "btnClear"
+        btnClear.Size = New Size(75, 23)
+        btnClear.TabIndex = 6
+        btnClear.Text = "Clear"
+        btnClear.UseVisualStyleBackColor = True
+        ' 
         ' frmAdd
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -144,6 +154,7 @@ Partial Class frmAdd
         ClientSize = New Size(263, 306)
         Controls.Add(cmbCategory)
         Controls.Add(txtID)
+        Controls.Add(btnClear)
         Controls.Add(btnSave)
         Controls.Add(Label2)
         Controls.Add(Label4)
@@ -175,4 +186,5 @@ Partial Class frmAdd
     Friend WithEvents txtQuantity As TextBox
     Friend WithEvents txtUnitprice As TextBox
     Friend WithEvents txtName As TextBox
+    Friend WithEvents btnClear As Button
 End Class

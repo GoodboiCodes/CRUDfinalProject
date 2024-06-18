@@ -17,3 +17,4 @@ C:\Users\Apillanes\Desktop\VSStudio\February\CRUDfinalProject\obj\Debug\net6.0-w
 C:\Users\Apillanes\Desktop\VSStudio\February\CRUDfinalProject\obj\Debug\net6.0-windows\CRUDfinalProject.genruntimeconfig.cache
 C:\Users\Apillanes\Desktop\VSStudio\February\CRUDfinalProject\obj\Debug\net6.0-windows\ref\CRUDfinalProject.dll
 C:\Users\Apillanes\Desktop\VSStudio\February\CRUDfinalProject\obj\Debug\net6.0-windows\CRUDfinalProject.frmDelete.resources
+C:\Users\Apillanes\Desktop\VSStudio\February\CRUDfinalProject\obj\Debug\net6.0-windows\CRUDfinalProject.sourcelink.json
